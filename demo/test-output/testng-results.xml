@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-09T16:08:23 IST" name="Suite" finished-at="2024-05-09T16:08:58 IST" duration-ms="34860">
+    <groups>
+    </groups>
+    <test started-at="2024-05-09T16:08:23 IST" name="TestFour" finished-at="2024-05-09T16:08:42 IST" duration-ms="19262">
+      <class name="DevelopFramework.TestFour">
+        <test-method signature="testFour()[pri:0, instance:DevelopFramework.TestFour@53941c2f]" started-at="2024-05-09T16:08:23 IST" name="testFour" finished-at="2024-05-09T16:08:41 IST" duration-ms="18019" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at DevelopFramework.TestFour.testFour(TestFour.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFour -->
+        <test-method is-config="true" signature="close()[pri:0, instance:DevelopFramework.TestFour@53941c2f]" started-at="2024-05-09T16:08:41 IST" name="close" finished-at="2024-05-09T16:08:42 IST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- DevelopFramework.TestFour -->
+    </test> <!-- TestFour -->
+    <test started-at="2024-05-09T16:08:23 IST" name="TestTwo" finished-at="2024-05-09T16:08:42 IST" duration-ms="19273">
+      <class name="DevelopFramework.TestTwo">
+        <test-method signature="testTwo()[pri:0, instance:DevelopFramework.TestTwo@6ad3381f]" started-at="2024-05-09T16:08:23 IST" name="testTwo" finished-at="2024-05-09T16:08:42 IST" duration-ms="19177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- DevelopFramework.TestTwo -->
+    </test> <!-- TestTwo -->
+    <test started-at="2024-05-09T16:08:23 IST" name="TestThree" finished-at="2024-05-09T16:08:42 IST" duration-ms="19113">
+      <class name="DevelopFramework.TestThree">
+        <test-method signature="testThree()[pri:0, instance:DevelopFramework.TestThree@4748a0f9]" started-at="2024-05-09T16:08:23 IST" name="testThree" finished-at="2024-05-09T16:08:42 IST" duration-ms="19045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+      </class> <!-- DevelopFramework.TestThree -->
+    </test> <!-- TestThree -->
+    <test started-at="2024-05-09T16:08:23 IST" name="LoginTest" finished-at="2024-05-09T16:08:58 IST" duration-ms="34840">
+      <class name="DevelopFramework.LoginTest">
+        <test-method signature="Login()[pri:0, instance:DevelopFramework.LoginTest@6dee4f1b]" started-at="2024-05-09T16:08:23 IST" name="Login" finished-at="2024-05-09T16:08:58 IST" duration-ms="34754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- DevelopFramework.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>
